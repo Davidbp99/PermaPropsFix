@@ -342,6 +342,7 @@ function PermaPropsSystem:Import()
             local class = {}
 
             if v.content.Class == "prop_dynamic" then class = "prop_physics" else class = v.content.Class end
+            if v.content.Class == "sammyservers_textscreen" then newData.lines = v.content.Other.Lines end
 
             newData.pos = v.content.Pos
             newData.ang = v.content.Angle

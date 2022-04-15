@@ -32,7 +32,7 @@ PermaPropsSystem.Config.ForbiddenEntities = {
 }
 
 -- The limit of PermaProps on a map.
-PermaPropsSystem.Config.Limit = 1000
+PermaPropsSystem.Config.Limit = 5000
 
 -- How many props to download at once in the overview menu.
 PermaPropsSystem.Config.PerDownload = 30
